@@ -18,6 +18,7 @@
 /.idea
 .idea/
 .venv/
+.vscode
 .vscode/*
 
 .cache
