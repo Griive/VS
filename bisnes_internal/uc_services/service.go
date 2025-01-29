@@ -1,8 +1,13 @@
-package ucservices
+package usecase
 
-import "context"
+// сценарии исползования
 
-type Service interface {
-	GetUserById(ctx context.Context, id string)
-	GetAllTask(ctx context.Context, priority int)
+
+// type Service interface {
+// 	GetUserById(ctx context.Context, id string)
+// 	GetAllTask(ctx context.Context, priority int)
+// }
+
+type GetUserById struct{
+	repo repository.
 }

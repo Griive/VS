@@ -1,7 +1,7 @@
-packege Task
+packege entity
 
 type Task struct {
-	ID string `json: "ID,omitempty"`
+	ID int `json: "ID,omitempty"`
 	Name_task string `json: "name,omitempty"`
 	Ager int `json: "ager,omitempty"`
 	Group string `json: "group,omitempty"`
